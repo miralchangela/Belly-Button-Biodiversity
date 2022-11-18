@@ -26,7 +26,7 @@
 
 5) Update all of the plots any time that a new sample is selected.
 
-![dashboard](https://github.com/miralchangela/Belly_Button_Biodiversity/blob/main/static/images/Dashboard1.png)
+![dashboard](https://github.com/miralchangela/Belly_Button_Biodiversity/blob/main/static/images/dashboard1.png)
 
 6) Visit [Deployed Page at GitHub Pages](https://miralchangela.github.io/Belly_Button_Biodiversity/)
 
