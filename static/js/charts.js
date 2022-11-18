@@ -89,7 +89,11 @@ function init() {
       x: sortedValues,
       y: yticks,
       type : "bar",
-      orientation: "h"
+      orientation: "h", 
+      marker: {
+        color: 'orange',
+        width: 1
+      },
     }  
     ];
     //Create the layout for the bar chart. 
