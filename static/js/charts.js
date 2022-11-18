@@ -118,8 +118,20 @@ function init() {
         color: outIDs,
         // Use sample_values for the marker size
         size: sampleValues,
+        // colorscale : [
+        //   ['0.0', 'rgb(165,0,38)'],
+        //   ['0.111111111111', 'rgb(215,48,39)'],
+        //   ['0.222222222222', 'rgb(244,109,67)'],
+        //   ['0.333333333333', 'rgb(253,174,97)'],
+        //   ['0.444444444444', 'rgb(254,224,144)'],
+        //   ['0.555555555556', 'rgb(224,243,248)'],
+        //   ['0.666666666667', 'rgb(171,217,233)'],
+        //   ['0.777777777778', 'rgb(116,173,209)'],
+        //   ['0.888888888889', 'rgb(69,117,180)'],
+        //   ['1.0', 'rgb(49,54,149)']
+        // ]}
         colorscale: 'YlOrRd'
-              }
+           }
     }];
   
     //Create the layout for the bubble chart.
@@ -145,18 +157,17 @@ function init() {
 		type: "indicator",
 		mode: "gauge+number",  
         gauge: {
-            
             axis: { range: [null, 10], tickwidth: 2 , tickcolor : "darkblack"},
             bar: { color: "black" },
             bgcolor : "white",
             borderwidth: 2,
-            bordercolor: "gray",
+            bordercolor: "black",
             steps: [
-            { range: [0, 2], color: "red" },
-            { range: [2, 4], color: "orange" },
-            { range: [4, 6], color: "yellow" },
-            { range: [6, 8], color: "lightgreen" },
-            { range: [8, 10], color: "green" },
+            { range: [0, 2], color: "#FFEC19" },
+            { range: [2, 4], color: "#FFC100" },
+            { range: [4, 6], color: "#FF9800" },
+            { range: [6, 8], color: "#FF5607" },
+            { range: [8, 10], color: "#F6412D" },
           ]
         }
         }

@@ -1,9 +1,25 @@
 body {
 
-    color: #f7f7f7;
+    color: black;
   }
   .jumbotron {
-    background-image: url("../images/nasa.jpg");
+    background-image: url("../images/background1.jpg");
     background-size: 100% 100%;
     text-align: center;
   }
+.jumbotron > h1 {
+  text-shadow: 1px 1px 2px black;
+}
+h5 {
+  color: black;
+}
+.background-color {
+  background-color: orange;
+}
+
+.border {
+ border: 10px;
+ border-color: black;
+ border-radius: 0.5px;
+ border-spacing: 1px;
+}
